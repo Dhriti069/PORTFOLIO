@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+    <div id="header">
+      <a href="#" class="logo">Portfolio.</a>
+        <div class="container">
+            <nav>
+                <img src="" alt="">
+                <ul id ="sidemenu">
+                    <li><a href = "#header">HOME</a></li>
+                    <li><a href = "#about">ABOUT</a></li>
+                    <li><a href = "#skill">SKILLS</a></li>
+                    <li><a href = "#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick='closemenu()'></i>
+                </ul>
+                <i class="fas fa-bars" onclick='openmenu()'></i>
+            </nav>
+           
+            <div class="header-text">
+                <p>Frontend developer</p>
+                <h1>Hi , MY NAME IS <span>DHRITI</span><br>DAS</h1>
+                <a href="#" class = "btn">Hire Me</a>
+
+            </div>
+          </div>
+        </div>
+     </div>
+   
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                    <img src="res.jpeg">
+               </div>
+               <div class="about-col-2">
+                <h1 class = "sub-title">ABOUT ME</h1>
+                <p>Hi ,I am Dhriti Das . Presently I am pursuing my bachelor's of technology in computer science at KIIT University.Pursuing a Bachelor of Technology in Computer Science at KIIT University was a natural choice for me, as I believe this institution offers the best opportunities to achieve my academic and professional goals. Over the past three years, I have been commited to my studies, university, and community involvement programmes.
+                  As I approach the final year of my college career, I am eager to enter the workforce and start applying the skills and knowledge I have gained. I am confident that my education and dedication have prepared me for success in my field, and I look forward to securing a full-time position upon graduation.
+                </p>
+                <div class="hero">
+                    <div class="btn-box">
+                      <button
+                        id="btn1"
+                        onclick="openexperience()"
+                        data-aos="fade-up"
+                        data-aos-delay="50"
+                        >
+                      </button>
+                      <button
+                        
+                        
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                      >
+                        Education
+                      </button>
+                      <button
+                        id="btn3"
+                        onclick=
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
+                        
+                      </button>
+                    </div>
+                  </div>
+
+                    <div class="content" id="content1">
+                      <div class="content-left">
+                        <ul>
+                          <li>
+                            2020-Current<br/>BTech from KIIT Bhubaneswar
+                          </li>
+                          <li>
+                            <span>2020</span><br />Higher Secondary Degree from DAV NTPC KANIHA
+                          
+                          </li>
+                          <li>
+                            <span>2018</span><br />Matriculation from DAV NTPC KANIHA
+                            
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  
+                <div class="tab-titles">
+                    <p class = "tab-links"></p>
+                    <p class = "tab-links"></p>
+                </div>
+                
+               </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="skill">
+      <div class="container">
+        <h3 class="sub-title">MY SKILLS</h3>
+        <div class="my-skills"> 
+          <div>
+            <h2>c++</h2>
+            <p>
+            <i class="fa-duotone fa-link"></i>
+            <a href="c++ cert.jpg">complete certification</a>
+            </p>
+        </div><div>
+            <h2>  Frontend  </h2>
+            <p>
+              <i class="fa-duotone fa-link"></i>
+              <a href="techbairn.jpg">complete certification</a>
+              </p>
+           </div>
+            <div>
+          <h2> dsa </h2>
+          <p>
+            <i class="fa-duotone fa-link"></i>
+            <a href="HACKERRANK CERT.png">HackerRank certification</a>
+            </p>
+      </div>
+  <div>
+    <h2> Figma </h2>
+    <p>
+      <i class="fa-duotone fa-link"></i>
+      <a href="FIGMA.pdf">Event Management</a>
+      </p>
+</div>
+</div>
+        </div>
+      </div>
+    </div>  
+
+     
+
+    <!------CONTACT--- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">CONTACT-ME</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>dasdhriti225</p>
+            <p><i class="fa-solid fa-phone"></i>6370426985</p>
+            <div class="social-icons">
+              <a href="https//facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <div class = "down"><a href="dd_resume.pdf">DOWNLOAD RESUME</a>
+              </div>
+            </div>
+          
+          </div>
+          <div class="contact-right">
+            <form>
+              <div class = "name"><input type="text" name = "NAME" placeholder="Your Name"required></div>
+              <input type="email" name = "email" placeholder="Your Email"required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>
+        Made with <i class="fa-solid fa-heart"></i> by Dhriti Das 
+      
+      </p>
+    </div>
+
+    <script src="index2.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7cec1eec8f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script src="circle-progress.js"></script>
+
+    
+  
+</body>
+</html>
